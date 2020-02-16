@@ -1,0 +1,16 @@
+server:
+  port: 9090
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+kafka:
+  topics:
+    - name: topic1
+      num-partitions: 3
+      replication-factor: 1
+    - name: topic2
+      num-partitions: 1
+      replication-factor: 1
+    - name: topic3
+      num-partitions: 2
+      replication-factor: 1

@@ -1,4 +1,4 @@
-package cn.javaguide.springbootkafka01sendobjects.common.config;
+package cn.javaguide.springbootkafka01sendobjects.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;
