@@ -8,6 +8,7 @@ spring:
       auto-offset-reset: earliest
     producer:
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      retries: 3  #  重试次数
 kafka:
   topic:
     my-topic: my-topic
