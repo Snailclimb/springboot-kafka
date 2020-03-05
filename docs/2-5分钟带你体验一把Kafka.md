@@ -13,7 +13,7 @@
 
 #### 单机版
 
-**下面使用的单机版的Kafka 来作为演示，推荐先搭建单机版的Kafka来学习。**
+**下面使用的单机版的 Kafka 来作为演示，推荐先搭建单机版的Kafka来学习。**
 
 > 以下使用 Docker 搭建Kafka基本环境来自开源项目：https://github.com/simplesteph/kafka-stack-docker-compose  。当然，你也可以按照官方提供的来：https://github.com/wurstmeister/kafka-docker/blob/master/docker-compose.yml 。
 

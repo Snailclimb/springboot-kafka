@@ -1,0 +1,18 @@
+server:
+  port: 9090
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092,localhost:9093,localhost:9094
+    consumer:
+      # 配置消费者消息offset是否自动重置(消费者重连会能够接收最开始的消息)
+      auto-offset-reset: earliest
+      # 事务隔离级别
+      isolation-level: read_committed #仅读取已提交的消息
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      retries: 3  #  重试次数
+      # 启用事务
+      transaction-id-prefix: my-tx. # 事务编号前缀
+kafka:
+  topic:
+    topic-test-transaction: topic-test-transaction
