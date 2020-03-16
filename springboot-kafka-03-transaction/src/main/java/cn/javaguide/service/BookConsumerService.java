@@ -19,7 +19,7 @@ public class BookConsumerService {
     @KafkaListener(topics = {"${kafka.topic.topic-test-transaction}"}, id = "bookGroup")
     public void consumeMessage(Book book) {
         logger.info("消费者消费{}的消息 -> {}", topicTestTransaction, book.toString());
-       // throw new RuntimeException("dlt");
+        throw new RuntimeException("dlt");
     }
 
     @KafkaListener(topics = {"${kafka.topic.topic-test-transaction}"}, id = "dltGroup")

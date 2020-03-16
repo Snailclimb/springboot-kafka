@@ -10,7 +10,7 @@
 1. [大白话带你认识Kafka](./docs/1-大白话带你认识Kafka.md) （这篇文章将会用大白话的方式带你认识 Kafka）
 2. [5分钟带你体验一把 Kafka](./docs/2-5分钟带你体验一把Kafka.md) （这篇文章让你学会如何使用 Docker 安装Kafka环境、使用命令行测试消息队列的功能以及如何在 Java 程序中简单使用Kafka）
 3. [10分钟学会如何在SpringBoot程序中使用Kafka作为消息队列?](./docs/3-10分钟学会如何在SpringBoot程序中使用Kafka作为消息队列.md) (教你用正确的姿势整合Kafka 到 Spring Boot 中作为消息队列)
-4. [SpringBoot+Kafka之如何优雅的创建 topic](./docs/4-SpringBoot+Kafka之如何优雅的创建 topic.md) (教你用正确的姿势整合Kafka 到 Spring Boot 中作为消息队列)
+4. [SpringBoot+Kafka之如何优雅的创建 topic](./docs/4-SpringBoot+Kafka之如何优雅的创建topic.md) (教你用正确的姿势整合Kafka 到 Spring Boot 中作为消息队列)
 5. ......
 
  **进阶：**
