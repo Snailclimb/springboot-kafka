@@ -187,13 +187,12 @@ Created topic test.
 
 ```shell
 root@kafka1:/# kafka-console-consumer --bootstrap-server localhost:9092 --topic test
-send hello from console -producer
 ```
 
 我们订阅了 名为 test  的 Topic。
 
 **5.生产者向 Topic 发送消息**
-
+另起一个窗口
 ```shell
 root@kafka1:/# kafka-console-producer --broker-list localhost:9092 --topic test
 >send hello from console -producer
